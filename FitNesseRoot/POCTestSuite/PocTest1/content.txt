@@ -1,0 +1,5 @@
+| script | command executor |
+| check | echo | Repeat after me: Harald Hardrada | Repeat after me: Harald Hardrada |
+| show | pwd |
+| check | cat | test.txt | Ragnar is the new Attila, Harald Hardrada is coming |
+

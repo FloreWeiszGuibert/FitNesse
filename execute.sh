@@ -1,0 +1,1 @@
+java -jar fitnesse-standalone.jar -b out_test.txt -c "POCTestSuite?suite&format=xml"

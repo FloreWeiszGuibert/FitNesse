@@ -1,0 +1,7 @@
+| script | echo fixture |
+| check | echo | Hello | Hello |
+
+
+| script: echo fixture |
+| check | echo | Hello | Hello |
+

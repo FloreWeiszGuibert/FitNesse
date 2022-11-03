@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>POCTestSuite</rootPath>
+  <pageHistoryReference>
+    <name>POCTestSuite.PocTest1</name>
+    <date>2022-11-02T11:00:37+01:00</date>
+    <pageHistoryLink>POCTestSuite.PocTest1?pageHistory&amp;resultDate=20221102110037</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>185</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>POCTestSuite.TestScriptTable</name>
+    <date>2022-11-02T11:00:37+01:00</date>
+    <pageHistoryLink>POCTestSuite.TestScriptTable?pageHistory&amp;resultDate=20221102110037</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Users/ad21627/.sdkman/candidates/java/current/bin/java -cp /Users/ad21627/FitNesse/ragnar/ragnar.jar:/Users/ad21627/FitNesse/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>2</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>479</totalRunTimeInMillis>
+</suiteResults>
+

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>POCTestSuite.MeshDownload</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2022-11-02T18:42:53+01:00</date>
+    <runTimeInMillis>9099</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="POCTestSuite.SetUp"&gt;.POCTestSuite.SetUp&lt;/a&gt; &lt;a href="POCTestSuite.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ragnar&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;mesh download&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set MDL binary&lt;/td&gt;
+		&lt;td&gt;/Users/ad21627/Project/mesh-download/cmake-build-release/bin/mdlcli&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;set MDL config file&lt;/td&gt;
+		&lt;td&gt;/Users/ad21627/Project/mesh-download/cfg/staging.toml&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;set content id&lt;/td&gt;
+		&lt;td&gt;&lt;a href="https://mdl-test.secure.footprint.net/orchestrator-demo/Lumen.CDN-Orchestrator.Demo-2.2.0.dmg"&gt;https://mdl-test.secure.footprint.net/orchestrator-demo/Lumen.CDN-Orchestrator.Demo-2.2.0.dmg&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;run&lt;/td&gt;
+	&lt;td&gt;[2022-11-02 18:42:53.153] [thread 3940052] [info] Running Mesh Download v22.9.0
+[2022-11-02 18:42:53.208] [thread 3940052] [debug] service "config" launched
+[2022-11-02 18:42:53.208] [thread 3940052] [debug] service "telemetry" launched
+[2022-11-02 18:42:53.208] [thread 3940052] [debug] service "port_mapper" launched
+[2022-11-02 18:42:53.209] [thread 3940052] [debug] service "backend" launched
+[2022-11-02 18:42:53.209] [thread 3940052] [debug] service "content" launched
+[2022-11-02 18:42:53.209] [thread 3940052] [debug] service "upload" launched
+[2022-11-02 18:42:53.209] [thread 3940052] [debug] service "p2p_source" launched
+[2022-11-02 18:42:53.210] [thread 3940052] [debug] service "session" launched
+[2022-11-02 18:42:53.210] [thread 3940068] [info] Searching a port
+[2022-11-02 18:43:01.871] [thread 3940063] [debug] mapped local port 22923 to remote port 19305 type 5
+[2022-11-02 18:43:01.871] [thread 3940063] [debug] mapping of unreliable port detected, not planning any renew
+[2022-11-02 18:43:01.871] [thread 3940068] [debug] sink for session "0" successfully initialized
+[2022-11-02 18:43:01.871] [thread 3940068] [debug] source for session "0" successfully initialized
+[2022-11-02 18:43:01.872] [thread 3940069] [debug] service "connection_pool" launched
+[2022-11-02 18:43:02.073] [thread 3940069] [debug] service "session" stopped
+[2022-11-02 18:43:02.073] [thread 3940069] [debug] service "p2p_source" stopped
+[2022-11-02 18:43:02.073] [thread 3940069] [debug] service "upload" stopped
+[2022-11-02 18:43:02.079] [thread 3940187] [debug] [connection_pool] exiting connection pool polling thread
+[2022-11-02 18:43:02.079] [thread 3940069] [debug] service "connection_pool" stopped
+[2022-11-02 18:43:02.080] [thread 3940069] [debug] service "content" stopped
+[2022-11-02 18:43:02.080] [thread 3940069] [debug] service "backend" stopped
+[2022-11-02 18:43:02.080] [thread 3940069] [debug] service "port_mapper" stopped
+[2022-11-02 18:43:02.081] [thread 3940069] [debug] service "telemetry" stopped
+[2022-11-02 18:43:02.081] [thread 3940069] [debug] service "config" stopped&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="POCTestSuite.TearDown"&gt;.POCTestSuite.TearDown&lt;/a&gt; &lt;a href="POCTestSuite.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>MeshDownload</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='ragnar'}</instruction>
+        <slimResult>pass(ragnar)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>ragnar</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='MeshDownload', args=[]}</instruction>
+        <slimResult>pass(mesh download)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>mesh download</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='setMDLBinary', args=[/Users/ad21627/Project/mesh-download/cmake-build-release/bin/mdlcli]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='setMDLConfigFile', args=[/Users/ad21627/Project/mesh-download/cfg/staging.toml]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='setContentId', args=[&lt;a href="https://mdl-test.secure.footprint.net/orchestrator-demo/Lumen.CDN-Orchestrator.Demo-2.2.0.dmg"&gt;https://mdl-test.secure.footprint.net/orchestrator-demo/Lumen.CDN-Orchestrator.Demo-2.2.0.dmg&lt;/a&gt;]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='run', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ShowActionExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Users/ad21627/.sdkman/candidates/java/current/bin/java -cp /Users/ad21627/FitNesse/ragnar/ragnar.jar:/Users/ad21627/FitNesse/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>9363</totalRunTimeInMillis>
+</testResults>
+

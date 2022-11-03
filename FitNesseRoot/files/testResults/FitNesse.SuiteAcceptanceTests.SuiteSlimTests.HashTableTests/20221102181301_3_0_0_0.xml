@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests</rootPath>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.HashTableWithHtmlContent</name>
+    <date>2022-11-02T18:13:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.HashTableWithHtmlContent?pageHistory&amp;resultDate=20221102181301</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>272</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldConvertHashWidgetToHashTable</name>
+    <date>2022-11-02T18:13:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldConvertHashWidgetToHashTable?pageHistory&amp;resultDate=20221102181301</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>27</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldReturnHashTable</name>
+    <date>2022-11-02T18:13:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldReturnHashTable?pageHistory&amp;resultDate=20221102181301</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>30</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Users/ad21627/.sdkman/candidates/java/current/bin/java -cp /Users/ad21627/FitNesse/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>Hash script is &lt;em&gt;&lt;b&gt;bold&lt;/b&gt;&lt;/em&gt;
+&lt;em&gt;&lt;b&gt;bold&lt;/b&gt;&lt;/em&gt;
+Hash name is bob
+Hash address is here
+</stdOut>
+    <stdErr>Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Nov 02, 2022 6:13:01 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>3</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>588</totalRunTimeInMillis>
+</suiteResults>
+

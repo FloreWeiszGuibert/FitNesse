@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>POCTestSuite.PocTest1</rootPath>
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2022-10-31T17:37:54+01:00</date>
+    <runTimeInMillis>91</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="POCTestSuite.SetUp"&gt;.POCTestSuite.SetUp&lt;/a&gt; &lt;a href="POCTestSuite.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ragnar&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;command executor&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;Repeat after me: Harald Hardrada&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Repeat after me: Harald Hardrada&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td colspan="3"&gt;[&lt;span class="diff"&gt;/Users/a&lt;/span&gt;d&lt;span class="diff"&gt;21627/FitNesse&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;pw&lt;/span&gt;d]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cat&lt;/td&gt;
+		&lt;td&gt;Repeat after me: Harald Hardrada&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;Failed to echo &lt;/span&gt;Repeat after me: Harald Hardrada] &lt;span class="fail"&gt;expected [Repeat after me: Harald Hardrada]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="POCTestSuite.TearDown"&gt;.POCTestSuite.TearDown&lt;/a&gt; &lt;a href="POCTestSuite.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>PocTest1</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='ragnar'}</instruction>
+        <slimResult>pass(ragnar)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>ragnar</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='CommandExecutor', args=[]}</instruction>
+        <slimResult>pass(command executor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>command executor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='echo', args=[Repeat after me: Harald Hardrada]}</instruction>
+        <slimResult>pass(Repeat after me: Harald Hardrada)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>Repeat after me: Harald Hardrada</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='pwd', args=[]}</instruction>
+        <slimResult>fail(a=/Users/ad21627/FitNesse;e=pwd)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>/Users/ad21627/FitNesse</actual>
+          <expected>pwd</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='cat', args=[Repeat after me: Harald Hardrada]}</instruction>
+        <slimResult>fail(a=Failed to echo Repeat after me: Harald Hardrada;e=Repeat after me: Harald Hardrada)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>Failed to echo Repeat after me: Harald Hardrada</actual>
+          <expected>Repeat after me: Harald Hardrada</expected>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Users/ad21627/.sdkman/candidates/java/current/bin/java -cp /Users/ad21627/FitNesse/ragnar/ragnar.jar:../Fixtures:/Users/ad21627/FitNesse/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>350</totalRunTimeInMillis>
+</testResults>
+

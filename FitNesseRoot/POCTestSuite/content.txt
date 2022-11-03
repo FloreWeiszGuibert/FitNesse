@@ -1,0 +1,4 @@
+!define TEST_SYSTEM {slim}
+!path /Users/ad21627/FitNesse/ragnar/*.jar
+!contents -R2 -g -p -f -h
+

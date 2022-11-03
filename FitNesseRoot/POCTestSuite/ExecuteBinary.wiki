@@ -1,0 +1,8 @@
+---
+Test
+---
+| script | execute binary |
+| set binary | ./cpp_test_project/build/cpp_test_project |
+| set parameter | param |
+| check | run | Success: param |
+
